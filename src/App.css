@@ -1,0 +1,84 @@
+
+
+.n1p {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+body{
+  background-color: whitesmoke;
+}
+/* .btn {
+  background-color: black;
+  color: white;
+  border: transparent;
+} */
+.form-check-input{
+  cursor: pointer;
+}
+
+.title {
+  /* font-size: ; */
+  font-weight: 100;
+  font-family: Algerian,'Courier New', Courier, monospace;
+}
+
+.Loading {
+  margin: 25vh;
+  animation: loading 1s infinite;
+  /* background-color: black; */
+}
+
+.loader{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.btn{
+  border: transparent;
+}
+
+.btn-primary:hover{
+  background-color: black;
+}
+
+.btn-dark:hover{
+  background-color: blue;
+}
+
+@keyframes loading{
+  0%{
+    rotate: 0deg;
+  }
+
+  100%{
+    rotate: 360deg;
+  }
+}
+
+/* .navbar{
+  position: sticky;
+  z-index: 2;
+} */
+
+.nav-link {
+  text-transform: capitalize;
+}
+
+/* .container{
+  width: 100vw;
+} */
+
+.badge{
+  display: flex;
+  position: absolute;
+  /* justify-content: flex-end; */
+  right: 0;
+  top: 0;
+}
+
+@media screen and (max-width:990px){
+      
+}
